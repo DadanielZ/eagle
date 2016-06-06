@@ -21,7 +21,7 @@
     <parent>
 		<groupId>org.apache.eagle</groupId>
 		<artifactId>eagle-parent</artifactId>
-        <version>0.4.0-incubating-SNAPSHOT</version>
+        <version>0.5.0-incubating-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -37,7 +37,7 @@
     <modules>
         <module>eagle-data-process</module>
         <module>eagle-policy</module>
-        <module>eagle-alert</module>
+        <module>eagle-alert-parent</module>
         <module>eagle-query</module>
    		<module>eagle-machinelearning</module>
         <module>eagle-embed</module>
