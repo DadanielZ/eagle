@@ -137,7 +137,7 @@ curl -u ${EAGLE_SERVICE_USER}:${EAGLE_SERVICE_PASSWD} -X POST -H 'Content-Type:a
        "attrDescription": "destination file or directory, such as /tmp",
        "attrType": "string",
        "category": "",
-       "attrValueResolver": "org.apache.eagle.service.security.hdfs.resolver.HDFSResourceResolver"
+       "attrValueResolver": "org.apache.eagle.service.security.hdfs.resolver.MAPRFSResourceResolver"
     },
     {
        "tags": {
@@ -148,7 +148,7 @@ curl -u ${EAGLE_SERVICE_USER}:${EAGLE_SERVICE_PASSWD} -X POST -H 'Content-Type:a
        "attrDescription": "source file or directory, such as /tmp",
        "attrType": "string",
        "category": "",
-       "attrValueResolver": "HDFSResourceResolver"
+       "attrValueResolver": "MAPRFSResourceResolver"
     },
     {
        "tags": {
